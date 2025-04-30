@@ -1,0 +1,6 @@
+.active-del {
+    background-color: white; /* Set the desired background color */
+    height: 37vh; /* Set desired height */
+    width: 35%; /* Full width */
+    border-radius: 8px;
+}

@@ -18,7 +18,7 @@ export const AuditLog: React.FC = () => {
 
     return (
         <Components.Layout.Layout backgroundColor="#F6F7F9">
-            <h1></h1>
+            <Components.Feature.AuditLog />
         </Components.Layout.Layout>
     );
 };

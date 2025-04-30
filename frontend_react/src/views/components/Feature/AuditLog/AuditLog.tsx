@@ -1,8 +1,12 @@
+import './AuditLog.css';
+
 export const AuditLog = () => {
     return (
-        <div>
-            <h1>Audit Log</h1>
-            {/* Add your audit log content here */}
+        <div className='p-3 d-flex flex-column h-100"'>
+            <div className=' pb-3'>
+                <h2>Audit Log</h2>
+            </div>
+            <div className="audit-log"></div>
         </div>
     );
 }

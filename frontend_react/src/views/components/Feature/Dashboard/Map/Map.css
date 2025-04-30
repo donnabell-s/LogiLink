@@ -1,0 +1,6 @@
+.map-container {
+    height: 37vh; /* Set desired height */
+    width: 65%; /* Full width */
+    border: solid 8px white;
+    border-radius: 8px;
+}
