@@ -4,3 +4,14 @@
     width: 33%; /* Full width */
     border-radius: 8px;
 }
+
+
+.cost-delay-analytics {
+    padding: 30px;
+}
+
+canvas {
+    height: auto;
+    width: 100%;
+
+}

@@ -3,4 +3,41 @@
     height: 37vh; /* Set desired height */
     width: 35%; /* Full width */
     border-radius: 8px;
+    padding: 20px; /* Add padding for content */
+}
+
+
+/* .active-del {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+.table-container {
+    display: block;
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-radius: 4px; /* Optional: Round the corners */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
 }

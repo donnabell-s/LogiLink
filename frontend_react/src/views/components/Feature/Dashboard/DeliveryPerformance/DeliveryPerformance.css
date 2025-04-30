@@ -4,3 +4,13 @@
     width: 33%; /* Full width */
     border-radius: 8px;
 }
+
+.del-perf {
+    padding: 30px;
+}
+
+bar {
+    height: auto;
+    width: 100%;
+
+}

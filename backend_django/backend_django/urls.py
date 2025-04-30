@@ -17,7 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
-from myapp.views import UserViewSet, RegisterView
+from myapp.views import UserViewSet, RegisterView, ProphetForecastView, OpenAIPromptView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +26,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/register/', RegisterView.as_view(), name='register'),
     path('api/user/', UserViewSet.as_view(), name='user-profile'),
+    path("api/forecast/", ProphetForecastView.as_view(), name="prophet-forecast"),
+    path("openai/", OpenAIPromptView.as_view(), name="openai-prompt"),
+
 ]
