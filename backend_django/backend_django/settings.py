@@ -44,12 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-# Initialize environment variables
-env = environ.Env()
-environ.Env.read_env()  # Reads the .env file
-
-# Fetch the OpenAI API key from the .env file
-OPENAI_API_KEY = env("OPENAI_API_KEY")
+CHUTES_API_KEY = "cpk_f06d9278d3b24879bec895637d271dac.87d3319c7ac455e681122665f69f8b1e.F0CIOETokFTtUv18arjred6fwvVlfSgh"
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -154,3 +149,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+APPEND_SLASH = False
