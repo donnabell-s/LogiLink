@@ -11,39 +11,9 @@ export const SideBar = () => {
     };
 
     return (
-        // <div className="d-flex flex-column h-100 sidebar">
-        //     <div className="ps-3 mb-4">
-        //         <img src="/images/sidebar-logo.svg" alt="Logo" /> {/* Replace with your logo path */}
-        //     </div>
-        //     <div className="d-flex flex-column sidebar-links mt-5">
-        //         <Link to="/dashboard" className="d-flex align-items-center" style={{ backgroundColor: location.pathname === "/dashboard" ? "rgba(81, 205, 190, 0.25)" : "transparent" }}>
-        //             <img src="/icons/grid.svg" alt="Dashboard Icon" className="icon" />
-        //             Dashboard
-        //         </Link>
-        //         <Link to="/audit-log" className="d-flex align-items-center" style={{ backgroundColor: location.pathname === "/audit-log" ? "rgba(81, 205, 190, 0.25)" : "transparent" }}>
-        //             <img src="/icons/list.svg" alt="AuditLog Icon" className="icon" />
-        //             Audit Log
-        //         </Link>
-        //     </div>
-        //     <div className="d-flex flex-column sidebar-links mt-auto">
-        //         <Link to="/" className="d-flex align-items-center">
-        //             <img src="/icons/settings.svg" alt="Settings Icon" className="icon" />
-        //             <span>Settings</span>
-        //         </Link>
-        //         <Link to="/" className="d-flex align-items-center">
-        //             <img src="/icons/help-circle.svg" alt="Help Center Icon" className="icon" />
-        //             Help Center
-        //         </Link>
-        //         <a onClick={handleLogout} className="d-flex align-items-center">
-        //             <img src="/icons/log-out.svg" alt="Logout Icon" className="icon" />
-        //             Logout
-        //         </a>
-        //     </div>
-        // </div>
-
         <div className="d-flex flex-column h-100 sidebar">
-        <div className="ps-3 mb-4">
-            <img src="/images/sidebar-logo.svg" alt="Logo" /> {/* Replace with your logo path */}
+        <div className="ps-3 mb-4 sidebar-logo">
+            <img src="/images/sidebar-logilink-logo.svg" alt="Logo" /> {/* Replace with your logo path */}
         </div>
         <div className="d-flex flex-column sidebar-links mt-5 gap-1">
             <Link 

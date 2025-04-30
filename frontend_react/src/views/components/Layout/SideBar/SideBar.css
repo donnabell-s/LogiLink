@@ -13,10 +13,12 @@
 
 .sidebar-logo {
     margin-bottom: 20px; /* Space below the logo */
+    
 }
 
 .sidebar-logo img {
     max-width: 100%; /* Responsive logo */
+    width: 155px !important;
     height: auto; /* Maintain aspect ratio */
 }
 

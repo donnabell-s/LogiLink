@@ -61,12 +61,13 @@ form .form{
 
 
 .logo {
-    background-image: url('/images/sample-logo.svg'); /* Direct path */
+    background-image: url('/images/logilink-logo.svg'); /* Direct path */
     background-size: contain; /* Cover the entire area */
     background-repeat: no-repeat; /* Prevent repeating */
     background-position: center;
     height: 14vh;
-    width: 18vw;
+    width: 30vw;
+    margin-bottom: -15px;
 }
 
 a{
