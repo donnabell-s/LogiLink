@@ -1,0 +1,42 @@
+.sidebar {
+    width: 250px; /* Set the width of the sidebar */
+    height: 100vh; /* Full height */
+    background-color: #072B2B; /* Dark background color */
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px; /* Padding around the content */
+    position: fixed; /* Fixed position */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.sidebar-logo {
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+.sidebar-logo img {
+    max-width: 100%; /* Responsive logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.sidebar-links a{
+    color: #51CDBE !important;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+}
+
+.sidebar-links a:hover {
+    background-color: rgba(81, 205, 190, 0.25);
+}
+
+
+.active-link {
+    background-color: rgba(81, 205, 190, 0.25); /* Active link background */
+}

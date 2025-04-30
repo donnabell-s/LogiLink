@@ -1,0 +1,50 @@
+.topbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    background-color: white; /* Dark background color */
+    color: black !important; 
+    padding: 11px 26px !important; /* Padding around the content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+    z-index: 10; /* Adjust as necessary */
+}
+
+h6{
+    margin: 0 !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+}
+
+.topbar-logo img {
+    max-height: 40px; /* Set a max height for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.topbar-links {
+    display: flex; /* Use flexbox for links */
+    gap: 20px; /* Space between links */
+}
+
+.topbar-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+    
+}
+
+.topbar-links a:hover {
+    background-color: #495057; /* Change background on hover */
+}
+
+
+.right-nav img{
+    width: 26px;
+    height: 26px;
+}
+
+.left-nav img{
+    width: 40px;
+    height: 40px;
+}

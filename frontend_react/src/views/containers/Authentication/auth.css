@@ -1,0 +1,97 @@
+input, button{
+    height: 53px;
+    border-radius: 6px !important;
+}
+
+button{
+    background-color: #026564;
+    color: white;
+    border: none;
+    font-size: 18px !important;
+    
+}
+
+
+
+input{
+    background-color: #E6E7E8;
+    border: none;
+    padding: 5px 20px 5px 20px;
+}
+
+div .input{
+    height: 250px;
+    max-height: 250px;
+}
+
+.right{
+    min-width: 47vw;
+    width: 47vw;
+}
+
+.bg{
+    min-width: 53vw;
+    width: 53vw;
+}
+
+form .form{
+    max-width: 750px;
+    width: auto;
+    max-height: 705px;
+}
+
+.bg {
+    background-image: url('/images/bg.svg'); /* Direct path */
+    background-size: cover; /* Cover the entire area */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center;
+    /* padding: 50px; */
+}
+
+.bg h1{
+    color: white;
+    font-size: 4vw;
+}
+
+
+.form h1 {
+    font-size: 4vw; /* Default for small screens */
+}
+
+
+
+.logo {
+    background-image: url('/images/sample-logo.svg'); /* Direct path */
+    background-size: contain; /* Cover the entire area */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center;
+    height: 14vh;
+    width: 18vw;
+}
+
+a{
+    text-decoration: none !important;
+    color: #026564  !important;
+}
+
+
+
+/* src/components/Login.css */
+.input-container {
+    position: relative; /* Position relative to allow absolute positioning of the icon */
+}
+
+.input-icon {
+    position: absolute; /* Position the icon absolutely */
+    left: 10px; /* Space from the left */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    width: 20px; /* Set a fixed width for the icons */
+    height: 20px; /* Set a fixed height for the icons */
+    pointer-events: none; /* Prevent clicks on the icon */
+}
+
+input {
+    padding-left: 40px; /* Add padding to the left to make space for the icon */
+    width: 100%; /* Full width */
+}

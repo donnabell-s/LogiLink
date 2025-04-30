@@ -1,0 +1,23 @@
+/* src/components/Layout.css */
+
+
+.sidebar {
+    width: 250px; /* Set a fixed width for the sidebar */
+    height: 100vh; /* Full height */
+}
+
+.main-content {
+    flex: 1; /* Take the remaining space */
+    margin-left: 250px; /* Ensure main content starts after the sidebar */
+}
+
+.topbar {
+    padding: 10px 20px; /* Padding around the content */
+    
+}
+
+.content {
+    padding: 20px; /* Padding for the main content area */
+    background-color: #F6F7F9; /* Background color for content */
+    flex: 1; /* Take the remaining space below the top bar */
+}
