@@ -13,8 +13,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 from datetime import timedelta
 import environ
-import os
-from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -45,6 +43,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 ]
+
+CHUTES_API_KEY = "cpk_f06d9278d3b24879bec895637d271dac.87d3319c7ac455e681122665f69f8b1e.F0CIOETokFTtUv18arjred6fwvVlfSgh"
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
